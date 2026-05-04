@@ -1,0 +1,12 @@
+name = "anyrouter-proxy"
+main = "src/index.ts"
+compatibility_date = "2026-05-03"
+
+# 自定义域名配置（示例，请根据实际情况修改）
+# routes = [
+#   { pattern = "your-domain.example.com", zone_name = "example.com" }
+# ]
+
+# 观测性配置
+[observability]
+enabled = true
